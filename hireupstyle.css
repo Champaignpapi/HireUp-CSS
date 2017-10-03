@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://use.fontawesome.com/0a44ec623c.js"></script>
+<style>
+    body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+    
+body	{background-color: lightgray;
+		border-style:solid;
+		border-color:gold;
+		border:20px solid gold
+		
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: ;
+    padding: 5px;
+    text-align: center;
+}   
+h1	{
+		color:#3C3B32;
+		font-family:"avenir";
+		font-size:relative;
+		text-align:center;
+}
+			
+p		{color: #626C2F;
+		text-align:center;
+		font-family:"courier";
+}
+a:link	{
+	background-color:#003366;
+}
+a:visited	{
+	background-color:none;
+}
+a:hover	{
+	background-color:gold;
+}
+a:active	{
+	background-color:none;
+}
+li a	{
+    display:list-item;
+		color:white;
+		text-align:center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+    
+li a.dropbtn {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue ;
+}
+
+li.dropdown {
+    display:inline-block;
+}
+
+    ul { 
+        display:none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+    nav{ background-color: #000099}   
+    
+</style>
+</head>
+        <li><a href="Home">Home</a></li>
+        <li><a href="#news">News</a><li>
+	<li><a href="#contact">Contact</a><li>
+	<li><a href="#about">About</a><li>
+  </li>
+<body>
+
+<ul>
+   
+    </div>
+</ul>
+
+<div class="row">
+  <div class="column">
+    <h2>Column ONE</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  <div class="column">
+    <h2>Column TWO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+    </div>
+
+</body>
+</html>
